@@ -1,4 +1,12 @@
-#pragma once
+/*
+ * common.h
+ *
+ *  Created on:
+ *      Author: Alka
+ */
+
+#ifndef COMMON_H_
+#define COMMON_H_
 
 extern uint8_t eepromBuffer[176];
 extern uint16_t TIMER1_MAX_ARR;
@@ -23,19 +31,6 @@ extern uint32_t current_EXTI_LINE;
 extern char dshot_extended_telemetry;
 extern uint16_t send_extended_dshot;
 
-//typedef struct PID{
-//	float error;
-//	float Kp;
-//	float Ki;
-//	float Kd;
-//	float integral;
-//	float derivative;
-//	float last_error;
-//	float pid_output;
-//	int16_t integral_limit;
-//	int16_t output_limit;
-//}PID;
-
 typedef struct fastPID{
 	int32_t error;
 	uint32_t Kp;
@@ -49,4 +44,4 @@ typedef struct fastPID{
 	int32_t output_limit;
 }fastPID;
 
-
+#endif /* COMMON_H_ */

@@ -5,8 +5,8 @@
  *      Author: Alka
  */
 
-#ifndef INC_PHASEOUTS_H_
-#define INC_PHASEOUTS_H_
+#ifndef PHASEOUTS_H_
+#define PHASEOUTS_H_
 
 #include "main.h"
 
@@ -18,4 +18,4 @@ void proportionalBrake();
 void twoChannelForward();
 void twoChannelReverse();
 
-#endif /* INC_PHASEOUTS_H_ */
+#endif /* PHASEOUTS_H_ */

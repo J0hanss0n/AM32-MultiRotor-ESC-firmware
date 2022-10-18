@@ -1,9 +1,12 @@
 /*
- * IO.h
+ * signal.h
  *
  *  Created on: Sep. 26, 2020
  *      Author: Alka
  */
+
+#ifndef SIGNAL_H_
+#define SIGNAL_H_
 
 #include "main.h"
 
@@ -22,4 +25,4 @@ extern uint16_t servo_high_threshold;  // anything above this point considered 2
 extern uint16_t servo_neutral;
 extern uint8_t servo_dead_band;
 
-
+#endif /* SIGNAL_H_ */
